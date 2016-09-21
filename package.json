@@ -1,0 +1,25 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "gulp"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baisabhishek1109/Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baisabhishek1109/Test/issues"
+  },
+  "homepage": "https://github.com/baisabhishek1109/Test#readme",
+  "devDependencies": {
+    "gulp-nightwatch": "^0.3.2"
+  }
+}
