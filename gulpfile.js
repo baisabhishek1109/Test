@@ -3,5 +3,5 @@ var nightwatch = require('gulp-nightwatch');
 
 
 gulp.task('default',function(){
-   gulp.src('').pipe(nightwatch({configFile:'nightwatch.json'}));
+   gulp.src('').pipe(nightwatch({configFile:'nightwatch.json', cliArgs: [ '--env chrome' ]}));
 });
